@@ -20,6 +20,8 @@ const ButtonReload = {
     },
 };
 
+
+
 const Loader = {
     show: "d-none",
     buttonShow: "d-none",
@@ -34,7 +36,7 @@ const Loader = {
                 ),
 
             ),
-            m(ButtonReload)
+            m(ButtonReload),
         ];
     },
 };

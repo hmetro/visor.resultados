@@ -3,6 +3,7 @@ const HeaderPrivate = {
     date: "",
     watch: "",
 
+
     oninit: () => {
         HeaderPrivate.mom.locale('es');
         var _t = HeaderPrivate.mom.format('LT');
@@ -30,7 +31,7 @@ const HeaderPrivate = {
                             m("img[src='assets/logo.metrovirtual.png'][alt='Metrovirtual'][width='200rem']")
                         ),
                         m("div.d-lg-none",
-                            m("a", { href: "#!/mi-perfil" },
+                            m("a", { href: "/mi-perfil" },
                                 m("div.features-circle.m-bg-3.text-active.d-inline-flex.align-items-center.justify-content-center.rounded-circle", { "style": { "height": "50px", "width": "50px" } },
                                     m("i.icofont-doctor", { "style": { "fontSize": "20px" } })
                                 )
@@ -55,7 +56,7 @@ const HeaderPrivate = {
 
                             ]),
                             m("div.p-2.navigation_right_area.position-relative.d-none.d-lg-block.navbar-search.my-lg-0",
-                                m("a", { href: "#!/mi-perfil" },
+                                m("a", { href: "/mi-perfil" },
                                     m("div.features-circle.m-bg-3.text-active.d-inline-flex.align-items-center.justify-content-center.rounded-circle", { "style": { "height": "50px", "width": "50px" } },
                                         m("i.icofont-doctor", { "style": { "fontSize": "20px" } })
                                     )

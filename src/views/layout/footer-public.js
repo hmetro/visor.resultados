@@ -13,7 +13,7 @@ const FooterPublic = {
                                     )
                                 ),
                                 m("p",
-                                    "Metrcvirtual para Médicos, conéctate con tu Hospital Metropolitano desde cualquier parte del Mundo y aprovecha al máximo todos nuestros servicios disponibles."
+                                    "Metrcvirtual para Pacientes, conéctate con tu Hospital Metropolitano desde cualquier navegador y aprovecha al máximo todos nuestros servicios disponibles."
                                 ),
 
                             ])

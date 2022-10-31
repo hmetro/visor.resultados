@@ -11,6 +11,8 @@ import ResultadoPaciente from '../views/paciente/resultadosPaciente';
 
 import MiPerfil from '../views/perfil/perfil';
 import _404 from '../views/404'
+import ResultadosImagen from '../views/imagen/resultados';
+import ResultadoImagen from '../views/imagen/resultado';
 
 
 
@@ -25,6 +27,8 @@ const Routes = {
     '/paciente/:nhc': Paciente, // Pacientes
     '/resultados': Resultados, // Resultados
     '/resultados/paciente/:nhc': ResultadoPaciente, // Resultados de Paciente
+    '/resultados/imagen': ResultadosImagen, // Resultados de Paciente
+    '/resultado/imagen/:id': ResultadoImagen, // Resultado de Paciente
     '/mi-perfil': MiPerfil, // MiPerfil
     '/salir': Salir, // Salir
     "/:404...": _404
